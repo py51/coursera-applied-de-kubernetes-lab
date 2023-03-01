@@ -26,6 +26,7 @@ async def fruit():
     return {"fruit": get_fruit()}
 
 
+
 @app.post("/search")
 async def search(wiki: Wiki):
     """Search Wikipedia for a name
